@@ -1,8 +1,8 @@
-# Rota API
+# JC-Rotas API
 
 ## Descrição
 
-Bem-vindo à documentação da API Rota. Esta API permite gerenciar e consultar rotas entre diferentes cidades. A seguir, estão os detalhes das operações disponíveis.
+Bem-vindo à documentação da API JC-Rotas. Esta API permite gerenciar e consultar rotas entre diferentes cidades. A seguir, estão os detalhes das operações disponíveis.
 
 ## Tecnologias Utilizadas
 
