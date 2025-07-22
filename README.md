@@ -27,8 +27,8 @@ Bem-vindo à documentação da API Rota. Esta API permite gerenciar e consultar 
 
 1. Clone o repositório:
     ```sh
-    git clone https://github.com/MatheusCavalari/rota-app.git
-    cd rota-app
+    git clone https://github.com/josercarvalho/JC-Rotas
+    cd JC-Rotas
     ```
 
 2. Restaure os pacotes NuGet:
