@@ -1,8 +1,8 @@
 # Rota API
 
-## Descrição
+## DescriÃ§Ã£o
 
-Bem-vindo à documentação da API Rota. Esta API permite gerenciar e consultar rotas entre diferentes cidades. A seguir, estão os detalhes das operações disponíveis.
+Bem-vindo Ã  documentaÃ§Ã£o da API Rota. Esta API permite gerenciar e consultar rotas entre diferentes cidades. A seguir, estÃ£o os detalhes das operaÃ§Ãµes disponÃ­veis.
 
 ## Tecnologias Utilizadas
 
@@ -13,19 +13,19 @@ Bem-vindo à documentação da API Rota. Esta API permite gerenciar e consultar rot
 
 - **Gerenciamento de Rotas**: 
   - Cadastro de rota.
-  - Edição de rota.
-  - Exclusão de rota.
-  - Obter todas as rotas disponíveis.
+  - EdiÃ§Ã£o de rota.
+  - ExclusÃ£o de rota.
+  - Obter todas as rotas disponÃ­veis.
   - Consulta a melhor rota entre dois pontos.
 
-## Requisitos para Rodar a Aplicação
+## Requisitos para Rodar a AplicaÃ§Ã£o
 
-- SDK do .NET 6.0: Certifique-se de ter o SDK do .NET 6.0 instalado. 
-- MySQL: Instale o MySQL e configure um banco de dados para ser usado pela aplicação.
+- SDK do .NET 9.0: Certifique-se de ter o SDK do .NET 9.0 instalado. 
+- MySQL: Instale o MySQL e configure um banco de dados para ser usado pela aplicaÃ§Ã£o.
 
-## Instalação
+## InstalaÃ§Ã£o
 
-1. Clone o repositório:
+1. Clone o repositÃ³rio:
     ```sh
     git clone https://github.com/MatheusCavalari/rota-app.git
     cd rota-app
@@ -44,22 +44,22 @@ Bem-vindo à documentação da API Rota. Esta API permite gerenciar e consultar rot
 ### Endpoints
 1. **GET /v1/rota
 - **URL**: `/v1/rota`
-- **Método**: `GET`
+- **MÃ©todo**: `GET`
 - **Resposta de Sucesso**:
-    - Código: `200 OK`
+    - CÃ³digo: `200 OK`
     - Corpo: Lista de rotas
 
 2. **GET /v1/rota/1
 - **URL**: `/v1/rota/1`
-- **Método**: `GET`
+- **MÃ©todo**: `GET`
 - **Resposta de Sucesso**:
-    - Código: `200 OK`
+    - CÃ³digo: `200 OK`
     - Corpo: Rota encontrada
 
 3. **POST /v1/rota
 - **URL**: `/v1/rota`
-- **Método**: `POST`
-- **Corpo da Requisição**:
+- **MÃ©todo**: `POST`
+- **Corpo da RequisiÃ§Ã£o**:
   ```json
   {
   "origem": "GRU",
@@ -68,13 +68,13 @@ Bem-vindo à documentação da API Rota. Esta API permite gerenciar e consultar rot
   }
   ```
 - **Resposta de Sucesso**:
-    - Código: `201 CREATED`
+    - CÃ³digo: `201 CREATED`
     - Corpo: Rota criada
 
 4. **PUT /v1/rota/1
 - **URL**: `/v1/rota/1`
-- **Método**: `PUT`
-- **Corpo da Requisição**:
+- **MÃ©todo**: `PUT`
+- **Corpo da RequisiÃ§Ã£o**:
   ```json
   {
   "origem": "GRU",
@@ -83,17 +83,17 @@ Bem-vindo à documentação da API Rota. Esta API permite gerenciar e consultar rot
   }
   ```
 - **Resposta de Sucesso**:
-    - Código: `204 NO CONTENT`
+    - CÃ³digo: `204 NO CONTENT`
 
 5. **DELETE /v1/rota/1
 - **URL**: `/v1/rota/1`
-- **Método**: `DELETE`
+- **MÃ©todo**: `DELETE`
 - **Resposta de Sucesso**:
-    - Código: `204 NO CONTENT`
+    - CÃ³digo: `204 NO CONTENT`
 
 6. **GET /v1/rota/consulta?origem=GRU&destino=BRC
 - **URL**: `/v1/rota/consulta?origem=GRU&destino=BRC`
-- **Método**: `GET`
+- **MÃ©todo**: `GET`
 - **Resposta de Sucesso**:
   ```json
   {
@@ -101,9 +101,9 @@ Bem-vindo à documentação da API Rota. Esta API permite gerenciar e consultar rot
   }
   ```
 
-## Contribuição
+## ContribuiÃ§Ã£o
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
+ContribuiÃ§Ãµes sÃ£o bem-vindas! Sinta-se Ã  vontade para abrir issues e pull requests.
 
 ## Autor
 
