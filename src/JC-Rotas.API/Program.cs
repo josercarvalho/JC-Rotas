@@ -22,7 +22,7 @@ builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo
     {
-        Title = "Rota Viagem API",
+        Title = "JC-Rota Viagem API",
         Version = "v1",
         Description = "API para cadastro de rotas e consulta da melhor rota de viagem",
         Contact = new OpenApiContact
