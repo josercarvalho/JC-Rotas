@@ -6,7 +6,7 @@ Bem-vindo à documentação da API Rota. Esta API permite gerenciar e consultar 
 
 ## Tecnologias Utilizadas
 
-- **.NET Core 6.0**
+- **.NET Core 9.0**
 - **MySQL para o banco de dados**
 
 ## Funcionalidades
