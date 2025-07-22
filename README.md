@@ -7,7 +7,7 @@ Bem-vindo à documentação da API Rota. Esta API permite gerenciar e consultar 
 ## Tecnologias Utilizadas
 
 - **.NET Core 9.0**
-- **MySQL para o banco de dados**
+- **SQLite para o banco de dados**
 
 ## Funcionalidades
 
@@ -21,7 +21,7 @@ Bem-vindo à documentação da API Rota. Esta API permite gerenciar e consultar 
 ## Requisitos para Rodar a Aplicação
 
 - SDK do .NET 9.0: Certifique-se de ter o SDK do .NET 9.0 instalado. 
-- MySQL: Instale o MySQL e configure um banco de dados para ser usado pela aplicação.
+- SQLite: Não há necessidade de Instalar o SQLite ele se auto configura criando um banco de dados local para ser usado pela aplicação.
 
 ## Instalação
 
