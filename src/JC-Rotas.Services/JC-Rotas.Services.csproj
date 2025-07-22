@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<RootNamespace>JC_Rotas.Services</RootNamespace>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AutoMapper" Version="14.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\JC-Rotas.Domain\JC-Rotas.Domain.csproj" />
+	  <ProjectReference Include="..\JC-Rotas.Infra\JC-Rotas.Infra.csproj" />
+	</ItemGroup>
+
+</Project>

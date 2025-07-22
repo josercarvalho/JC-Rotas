@@ -1,0 +1,6 @@
+@JC_Rotas.API_HostAddress = http://localhost:5130
+
+GET {{JC_Rotas.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
